@@ -39,9 +39,9 @@ export default function EssayNotion() {
     }
 
     return (
-        <div className="flex flex-col p-6 bg-gray-100 min-h-screen">
-            <h1 className="text-3xl font-bold mb-4 text-center">Submit to Notion</h1>
-            <div className="max-w-md mx-auto bg-white p-6 rounded shadow">
+        <div className="flex flex-col p-6 bg-gradient-to-r from-pink-100 to-blue-100 min-h-screen">
+            <h1 className="text-3xl font-bold mb-4 text-center text-pink-800">Submit to Notion</h1>
+            <div className="w-80 mx-auto bg-white p-8 rounded shadow">
                 <label className="block mb-2 font-bold text-gray-700" htmlFor="name">
                     Name
                 </label>
@@ -90,7 +90,7 @@ export default function EssayNotion() {
                     </label>
                 </div>
 
-                <button className="py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600" onClick={submitFormNotion}>
+                <button className="py-2 px-4 bg-pink-500 text-white rounded hover:bg-pink-600" onClick={submitFormNotion}>
                     Submit to Notion
                 </button>
             </div>

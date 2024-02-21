@@ -1,38 +1,84 @@
 {
-  "name": "notion_api",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "notion_api",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@fontsource/material-icons": "^5.0.11",
+        "@mui/icons-material": "^5.14.19",
+        "@mui/material": "^5.14.20",
+        "@notionhq/client": "^2.2.14",
+        "@reduxjs/toolkit": "^2.0.1",
+        "@testing-library/jest-dom": "^5.17.0",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "axios": "^1.6.2",
+        "body-parser": "^1.20.2",
+        "chance": "^1.1.11",
+        "cors": "^2.8.5",
+        "date-fns": "^3.0.2",
+        "express": "^4.18.2",
+        "luxon": "^3.4.4",
+        "nodemon": "^3.0.3",
+        "react": "^18.2.0",
+        "react-beautiful-dnd": "^13.1.1",
+        "react-dnd": "^16.0.1",
+        "react-dnd-html5-backend": "^16.0.1",
+        "react-dom": "^18.2.0",
+        "react-id-swiper": "^4.0.0",
+        "react-kakao-login": "^2.1.1",
+        "react-kakao-maps-sdk": "^1.1.24",
+        "react-naver-login": "^0.1.4",
+        "react-redux": "^9.0.2",
+        "react-router-dom": "^6.20.1",
+        "react-scripts": "5.0.1",
+        "react-slick": "^0.29.0",
+        "react-tailwindcss-datepicker": "^1.6.6",
+        "redux": "^5.0.0",
+        "redux-logger": "^3.0.6",
+        "redux-thunk": "^3.1.0",
+        "serve": "^14.2.1",
+        "slick-carousel": "^1.8.1",
+        "styled-components": "^6.1.1",
+        "swiper": "^11.0.5",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start-server": "nodemon Essayserver.js",
+        "start-react": "react-scripts start",
+        "start": "concurrently \"yarn run start-server\" \"yarn run start-react\"",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@tailwindcss/line-clamp": "^0.4.4",
+        "autoprefixer": "^10.4.16",
+        "concurrently": "^8.2.2",
+        "daisyui": "^4.4.19",
+        "eslint": "^8.56.0",
+        "eslint-plugin-react": "^7.33.2",
+        "postcss": "^8.4.32",
+        "prettier": "3.1.1",
+        "tailwindcss": "^3.3.6"
+    }
 }

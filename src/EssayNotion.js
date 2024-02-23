@@ -41,7 +41,7 @@ export default function EssayNotion() {
     return (
         <div className="flex flex-col p-6 bg-gradient-to-r from-pink-100 to-blue-100 min-h-screen">
             <h1 className="text-3xl font-bold mb-4 text-center text-pink-800">Submit to Notion</h1>
-            <div className="w-80 mx-auto bg-white p-8 rounded shadow">
+            <div className="w-96 mx-auto bg-white p-8 rounded shadow">
                 <label className="block mb-2 font-bold text-gray-700" htmlFor="name">
                     Name
                 </label>
